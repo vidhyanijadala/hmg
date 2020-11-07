@@ -1,0 +1,12 @@
+# required by sys-kernel/linux-firmware (argument)
+=sys-kernel/linux-firmware-20201022-r2 linux-fw-redistributable no-source-code
+# required by x11-base/xorg-x11-7.4-r3::gentoo[fonts]
+# required by x11-base/xorg-x11 (argument)
+>=media-fonts/font-bh-ttf-1.0.3-r2 bh-luxi
+# required by x11-base/xorg-x11-7.4-r3::gentoo[fonts]
+# required by x11-base/xorg-x11 (argument)
+>=media-fonts/font-bh-type1-1.0.3-r2 bh-luxi
+# required by unrar (argument)
+=app-arch/unrar-5.9.4 unRAR
+# required by p7zip (argument)
+=app-arch/p7zip-16.02-r4 unRAR

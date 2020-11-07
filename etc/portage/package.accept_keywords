@@ -1,0 +1,5 @@
+sys-kernel/gentoo-kernel-bin ~amd64
+sys-libs/libstdc++-v3 ~amd64
+dev-qt/qtstyleplugins ~amd64
+media-video/simplescreenrecorder ~amd64
+sys-kernel/xanmod-sources ~amd64

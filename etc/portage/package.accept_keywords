@@ -4,3 +4,4 @@ dev-qt/qtstyleplugins ~amd64
 media-video/simplescreenrecorder ~amd64
 sys-kernel/xanmod-sources ~amd64
 net-im/telegram-desktop-bin ~amd64
+media-sound/spotify ~amd64

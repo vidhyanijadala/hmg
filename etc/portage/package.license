@@ -10,3 +10,5 @@
 =app-arch/unrar-5.9.4 unRAR
 # required by p7zip (argument)
 =app-arch/p7zip-16.02-r4 unRAR
+# required by media-sound/spotify (argument)
+>=media-sound/spotify-1.1.42 Spotify

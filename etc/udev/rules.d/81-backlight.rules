@@ -1,0 +1,2 @@
+# Set backlight level to 13 (5%)
+SUBSYSTEM=="backlight", ACTION=="add", KERNEL=="amdgpu_bl0", ATTR{brightness}="13"

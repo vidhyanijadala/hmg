@@ -51,4 +51,4 @@ UUID=3EAC7CAF22EC05A1    /media/AllMedia    ntfs-3g    noatime,big_writes,uid=10
 UUID=4000F5C8553DF314    /media/AllData     ntfs-3g    noatime,big_writes,uid=1000,gid=1000,dmask=022,fmask=133    0 0
 
 # FileSystem on /dev/sda4 [Artix]
-#UUID=7451562d-259b-4753-a0ca-c61e9fd36a1d    /media/Artix    ext4    noatime,discard    0 0
+UUID=7451562d-259b-4753-a0ca-c61e9fd36a1d    /media/Artix    ext4    noatime    0 0

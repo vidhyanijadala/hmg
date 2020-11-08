@@ -1,0 +1,74 @@
+#!/usr/bin/env bash
+source /etc/archroot.conf
+
+copyresolv(){
+    $PRIV /opt/archroot/copyresolv
+}
+
+storeenv(){
+    echo $DBUS_SESSION_BUS_ADDRESS > /tmp/archroot_dbus_session_address
+    echo $XDG_RUNTIME_DIR > /tmp/archroot_xdg_runtime_dir
+}
+
+help_text(){
+cat << EOF
+USAGE: $0 <arguments>
+
+OPTIONS:
+  -m, --mount           Mount chroot partitions.
+  -u, --unmount         Unmount chroot partitions.
+  -e, --enter           Enters chroot enviroment.
+  -h, --help            Displays this help message.
+
+EOF
+}
+
+err(){
+    echo "$(tput bold)$(tput setaf 1)$@ $(tput sgr0)"
+    exit 1
+}
+
+case $1 in
+    -m|--mount)
+        $PRIV mount -vt proc /proc $CHROOT/proc
+        $PRIV mount -Rv /tmp $CHROOT/tmp
+        $PRIV mount -Rv /sys $CHROOT/sys
+        $PRIV mount -Rv /dev $CHROOT/dev
+        $PRIV mount -Rv /run $CHROOT/run
+        $PRIV mount --make-rslave -v $CHROOT/dev
+        $PRIV mount --make-rslave -v $CHROOT/sys
+        $PRIV mkdir -pv $CHROOT/var/lib/dbus
+        $PRIV mount -Rv /var/lib/dbus $CHROOT/var/lib/dbus
+        $PRIV mkdir -pv $CHROOT/lib/modules
+        $PRIV mount -Rv /lib/modules $CHROOT/lib/modules
+        ;;
+    -u|--unmount)
+        $PRIV umount --recursive -v $CHROOT/proc
+        $PRIV umount --recursive -v $CHROOT/tmp
+        $PRIV umount --recursive -v $CHROOT/sys
+        $PRIV umount --recursive -v $CHROOT/dev
+        $PRIV umount --recursive -v $CHROOT/run
+        $PRIV umount --recursive -v $CHROOT/var/lib/dbus
+        $PRIV umount --recursive -v $CHROOT/lib/modules
+        ;;
+    -e|--enter)
+        storeenv
+        copyresolv
+        $PRIV /opt/archroot/command enter
+	;;
+    -h|--help)
+        help_text
+    ;;
+    "")
+        help_text
+    ;;
+    -*)
+        err "Unknown option: $1"
+    ;;
+    *)
+        storeenv
+        copyresolv
+        COMMAND=$(echo $@ | tr ' ' '\ ')
+        $PRIV /opt/archroot/command $COMMAND
+    ;;
+esac

@@ -17,3 +17,4 @@ sci-libs/libqalculate ~amd64
 sci-calculators/qalculate-gtk ~amd64
 app-emulation/virtualbox ~amd64
 app-emulation/virtualbox-modules ~amd64
+x11-misc/screenkey ~amd64

@@ -18,7 +18,7 @@ GRUB_TIMEOUT=-1
 #GRUB_TIMEOUT_STYLE=menu
 
 # Append parameters to the linux kernel command line
-GRUB_CMDLINE_LINUX="loglevel=3 quiet"
+GRUB_CMDLINE_LINUX="loglevel=3 quiet usbcore.autosuspend=-1"
 #
 # Examples:
 #
@@ -37,14 +37,17 @@ GRUB_CMDLINE_LINUX="loglevel=3 quiet"
 # The resolution used on graphical terminal.
 # Note that you can use only modes which your graphic card supports via VBE.
 # You can see them in real GRUB with the command `vbeinfo'.
-#GRUB_GFXMODE=640x480
+GRUB_GFXMODE=auto
+
+# Preload both GPT and MBR modules so that they are not missed
+GRUB_PRELOAD_MODULES="part_gpt part_msdos"
 
 # Set to 'text' to force the Linux kernel to boot in normal text
 # mode, 'keep' to preserve the graphics mode set using
 # 'GRUB_GFXMODE', 'WIDTHxHEIGHT'['xDEPTH'] to set a particular
 # graphics mode, or a sequence of these separated by commas or
 # semicolons to try several modes in sequence.
-#GRUB_GFXPAYLOAD_LINUX=
+GRUB_GFXPAYLOAD_LINUX=keep
 
 # Path to theme spec txt file.
 # The starfield is by default provided with use truetype.

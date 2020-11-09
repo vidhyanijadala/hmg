@@ -12,3 +12,5 @@
 =app-arch/p7zip-16.02-r4 unRAR
 # required by media-sound/spotify (argument)
 >=media-sound/spotify-1.1.42 Spotify
+# required by discord-bin (argument)
+>=net-im/discord-bin-0.0.12 all-rights-reserved

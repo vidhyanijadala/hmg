@@ -1,0 +1,24 @@
+# required by app-misc/neofetch-6.0.0::gentoo[X]
+# required by neofetch (argument)
+>=www-client/w3m-0.5.3_p20180125 imlib
+# required by www-client/ungoogled-chromium-bin-86.0.4240.111::pf4public
+# required by ungoogled-chromium-bin (argument)
+>=sys-libs/zlib-1.2.11-r2 minizip
+# required by www-client/ungoogled-chromium-bin-86.0.4240.111::pf4public
+# required by ungoogled-chromium-bin (argument)
+=media-libs/libvpx-1.7.0-r1 postproc
+# required by dev-python/PyQt5-5.14.2-r1::gentoo[multimedia]
+# required by media-sound/pulseaudio-13.0::gentoo[equalizer,qt5]
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtmultimedia-5.15.1 widgets
+# required by x11-drivers/xf86-video-vmware-13.3.0::gentoo
+# required by x11-base/xorg-drivers-1.20-r2::gentoo[video_cards_vmware]
+# required by @selected
+# required by @world (argument)
+>=x11-libs/libdrm-2.4.102 libkms
+# required by x11-drivers/xf86-video-vmware-13.3.0::gentoo
+# required by x11-base/xorg-drivers-1.20-r2::gentoo[video_cards_vmware]
+# required by @selected
+# required by @world (argument)
+>=media-libs/mesa-20.1.10 xa

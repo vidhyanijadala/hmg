@@ -31,14 +31,14 @@
 # FileSystem on /dev/sda2 [Gentoo]
 UUID=d8ce9645-690b-464a-9513-e126132b6c9a    /    f2fs    noatime    0 0
 
-# EFI on /dev/sda1
-UUID=F9DE-02AB    /boot/efi    vfat    noatime    0 0
+# Boot EFI on /dev/sda1
+UUID=E476-E614    /boot    vfat    noatime    0 0
 
 # Swap on /dev/sdb3
 UUID=d6314a85-d51a-4ca3-861c-3cfcae18ca33    none    swap    sw    0 0
 
 # zRAM Swap
-/dev/zram0    none    swap    noatime,defaults    0 0
+/dev/zram0    none    swap    sw    0 0
 
 # Use RAM instead of SSD for temp and log files
 #tmpfs    /tmp                 tmpfs    noatime,defaults,mode=1777        0 0
@@ -49,6 +49,3 @@ UUID=d6314a85-d51a-4ca3-861c-3cfcae18ca33    none    swap    sw    0 0
 # NTFS-3G
 UUID=3EAC7CAF22EC05A1    /media/AllMedia    ntfs-3g    noatime,big_writes,uid=1000,gid=1000,dmask=022,fmask=133    0 0
 UUID=4000F5C8553DF314    /media/AllData     ntfs-3g    noatime,big_writes,uid=1000,gid=1000,dmask=022,fmask=133    0 0
-
-# FileSystem on /dev/sda4 [Artix]
-UUID=7451562d-259b-4753-a0ca-c61e9fd36a1d    /media/Artix    ext4    noatime    0 0

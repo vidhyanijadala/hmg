@@ -17,4 +17,263 @@ sci-libs/libqalculate ~amd64
 sci-calculators/qalculate-gtk ~amd64
 app-emulation/virtualbox ~amd64
 app-emulation/virtualbox-modules ~amd64
+dev-ruby/dnsruby ~amd64
 x11-misc/screenkey ~amd64
+dev-python/ipython ~amd64
+dev-libs/capstone ~amd64
+dev-util/radare2 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/rex-zip-0.1.3 ~amd64
+# required by dev-ruby/packetfu-1.1.13::gentoo[ruby_targets_ruby25]
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/network_interface-0.0.2 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/faker-2.14.0 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/openssl-ccm-1.2.2 ~amd64
+# required by dev-ruby/rex-bin_tools-0.1.6::pentoo[ruby_targets_ruby25]
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/rex-arch-0.1.13 ~amd64
+# required by dev-ruby/rex-rop_builder-0.1.3::pentoo[ruby_targets_ruby26]
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/metasm-1.0.4 ~amd64
+# required by dev-ruby/metasploit-credential-4.0.2::pentoo[ruby_targets_ruby25]
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/metasploit-concern-3.0.0 ~amd64
+# required by metasploit (argument)
+=net-analyzer/metasploit-6.0.10 ~amd64
+# required by dev-ruby/jsobfu-0.4.2::gentoo[ruby_targets_ruby25]
+# required by dev-ruby/rex-exploitation-0.1.24::pentoo[ruby_targets_ruby25]
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/rkelly-remix-0.0.7 ~amd64
+# required by dev-ruby/octokit-4.19.0::gentoo[ruby_targets_ruby25]
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/faraday-1.1.0 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/mqtt-0.5.0 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/xdr-3.0.1 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/packetfu-1.1.13 ~amd64
+# required by dev-ruby/rex-random_identifier-0.1.4::pentoo[ruby_targets_ruby26]
+# required by dev-ruby/rex-powershell-0.1.87::pentoo[ruby_targets_ruby26]
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/rex-text-0.2.28 ~amd64
+# required by dev-ruby/arel-helpers-2.11.0::gentoo[ruby_targets_ruby26]
+# required by dev-ruby/metasploit_data_models-4.1.0::pentoo[ruby_targets_ruby25]
+# required by dev-ruby/metasploit-credential-4.0.2::pentoo[ruby_targets_ruby26]
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/activerecord-5.2.4.4 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/rex-java-0.1.5 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/bit-struct-0.16 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/rex-exploitation-0.1.24 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/rex-nop-0.1.1 ~amd64
+# required by dev-ruby/rex-powershell-0.1.87::pentoo[ruby_targets_ruby26]
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/rex-random_identifier-0.1.4 ~amd64
+# required by dev-ruby/rex-powershell-0.1.87::pentoo[ruby_targets_ruby25]
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/ruby-rc4-0.1.5-r2 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/rex-mime-0.1.5 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/rex-registry-0.1.3 ~amd64
+# required by dev-ruby/activerecord-5.2.4.4::gentoo[ruby_targets_ruby26]
+# required by dev-ruby/arel-helpers-2.11.0::gentoo[ruby_targets_ruby26]
+# required by dev-ruby/metasploit_data_models-4.1.0::pentoo[ruby_targets_ruby25]
+# required by dev-ruby/metasploit-credential-4.0.2::pentoo[ruby_targets_ruby26]
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/activemodel-5.2.4.4 ~amd64
+# required by dev-ruby/activerecord-5.2.4.4::gentoo[ruby_targets_ruby25]
+# required by dev-ruby/arel-helpers-2.11.0::gentoo[ruby_targets_ruby26]
+# required by dev-ruby/metasploit_data_models-4.1.0::pentoo[ruby_targets_ruby25]
+# required by dev-ruby/metasploit-credential-4.0.2::pentoo[ruby_targets_ruby26]
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/arel-9.0.0 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/patch_finder-1.0.2 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/octokit-4.19.0 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/rex-rop_builder-0.1.3 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=www-servers/thin-1.7.2 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[ruby_targets_ruby26,-test,java]
+# required by metasploit (argument)
+=dev-ruby/rjb-1.6.2 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/rb-readline-0.5.5 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/faye-websocket-0.11.0 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/ruby-net-ldap-0.16.3 ~amd64
+# required by dev-ruby/ruby_smb-2.0.6::pentoo[ruby_targets_ruby25]
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/rubyntlm-0.6.2 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/metasploit_payloads-mettle-1.0.2 ~amd64
+# required by dev-ruby/ruby_smb-2.0.6::pentoo[ruby_targets_ruby25]
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/bindata-2.4.8 ~amd64
+# required by dev-ruby/pdf-reader-2.4.1::gentoo[ruby_targets_ruby26]
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/ttfunk-1.6.2.1 ~amd64
+# required by dev-ruby/faye-websocket-0.11.0::pentoo[ruby_targets_ruby26]
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/websocket-driver-0.7.3 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/rex-powershell-0.1.87 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/hrr_rb_ssh-0.4.2 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/msgpack-1.3.3 ~amd64
+# required by dev-ruby/ruby_smb-2.0.6::pentoo[ruby_targets_ruby25]
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/windows_error-0.1.2 ~amd64
+# required by dev-ruby/octokit-4.19.0::gentoo[ruby_targets_ruby26]
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/sawyer-0.8.2 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/pdf-reader-2.4.1 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/rex-sslscan-0.1.5 ~amd64
+# required by dev-ruby/metasploit-credential-4.0.2::pentoo[ruby_targets_ruby26]
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/metasploit_data_models-4.1.0 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/sshkey-2.0.0 ~amd64
+# required by dev-ruby/ruby_smb-2.0.6::pentoo[ruby_targets_ruby26]
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/openssl-cmac-2.0.1 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/ruby-macho-2.3.0 ~amd64
+# required by dev-ruby/pdf-reader-2.4.1::gentoo[ruby_targets_ruby25]
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/ascii85-1.0.3 ~amd64
+# required by dev-ruby/faraday-1.1.0::gentoo[ruby_targets_ruby25]
+# required by dev-ruby/sawyer-0.8.2::gentoo[ruby_targets_ruby26]
+# required by dev-ruby/octokit-4.19.0::gentoo[ruby_targets_ruby26]
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/multipart-post-2.1.1 ~amd64
+# required by dev-ruby/rex-sslscan-0.1.5::pentoo[ruby_targets_ruby25]
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/rex-socket-0.1.24 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/filesize-0.2.0 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/rex-encoder-0.1.4 ~amd64
+# required by dev-ruby/activerecord-5.2.4.4::gentoo[ruby_targets_ruby26]
+# required by dev-ruby/arel-helpers-2.11.0::gentoo[ruby_targets_ruby26]
+# required by dev-ruby/metasploit_data_models-4.1.0::pentoo[ruby_targets_ruby25]
+# required by dev-ruby/metasploit-credential-4.0.2::pentoo[ruby_targets_ruby26]
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/activesupport-5.2.4.4 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/ruby_smb-2.0.6 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/metasploit-credential-4.0.2 ~amd64
+# required by dev-ruby/rex-bin_tools-0.1.6::pentoo[ruby_targets_ruby25]
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/rex-core-0.1.13 ~amd64
+# required by dev-ruby/metasploit_data_models-4.1.0::pentoo[ruby_targets_ruby25]
+# required by dev-ruby/metasploit-credential-4.0.2::pentoo[ruby_targets_ruby26]
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/arel-helpers-2.11.0 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[ruby_targets_ruby26,pcap,-test]
+# required by metasploit (argument)
+=dev-ruby/pcaprub-0.13.0 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/rex-bin_tools-0.1.6 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/warden-1.2.9 ~amd64
+# required by dev-ruby/metasploit_data_models-4.1.0::pentoo[ruby_targets_ruby25]
+# required by dev-ruby/metasploit-credential-4.0.2::pentoo[ruby_targets_ruby26]
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/recog-2.3.15 ~amd64
+# required by dev-ruby/pdf-reader-2.4.1::gentoo[ruby_targets_ruby25]
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/hashery-2.1.2 ~amd64
+# required by dev-ruby/pdf-reader-2.4.1::gentoo[ruby_targets_ruby25]
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/afm-0.2.2 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/rex-ole-0.1.6 ~amd64
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/bson-4.10.0 ~amd64
+# required by dev-ruby/websocket-driver-0.7.3::gentoo[ruby_targets_ruby25]
+# required by dev-ruby/faye-websocket-0.11.0::pentoo[ruby_targets_ruby26]
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/websocket-extensions-0.1.5 ~amd64
+# required by dev-ruby/rex-exploitation-0.1.24::pentoo[ruby_targets_ruby25]
+# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
+# required by metasploit (argument)
+=dev-ruby/jsobfu-0.4.2 ~amd64

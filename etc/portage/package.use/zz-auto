@@ -39,3 +39,20 @@
 # required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
 # required by metasploit (argument)
 >=dev-ruby/activerecord-5.2.4.4 postgres
+# required by app-editors/neovim-0.4.3::gentoo
+# required by neovim (argument)
+>=dev-lua/lpeg-1.0.1 luajit
+# required by app-editors/neovim-0.4.3::gentoo
+# required by neovim (argument)
+>=dev-lua/luv-1.32.0.0 luajit
+# required by app-editors/neovim-0.4.3::gentoo
+# required by neovim (argument)
+>=dev-lua/mpack-1.0.4 luajit
+# required by =app-misc/gpick-0.2.4-r2 (argument)
+=app-misc/gpick-0.2.4-r2 -python_targets_python2_7
+# required by media-video/handbrake-1.3.3-r1::gentoo
+# required by handbrake (argument)
+>=media-video/ffmpeg-4.3.1 fdk
+# required by app-editors/emacs-27.1-r1::gentoo
+# required by emacs (argument)
+>=app-emacs/emacs-common-gentoo-1.6-r4 games

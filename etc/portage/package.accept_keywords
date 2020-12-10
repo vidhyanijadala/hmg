@@ -1,3 +1,7 @@
+sys-process/htop ~amd64
+sys-kernel/gentoo-sources ~amd64
+dev-util/cutter ~amd64
+sys-boot/plymouth-openrc-plugin ~amd64
 app-office/wps-office ~amd64
 x11-misc/rofi ~amd64
 x11-terms/kitty-terminfo

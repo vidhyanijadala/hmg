@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+xset m 70/10 1 r rate 500 30 b on
+
+xmodmap -e "keycode 79 = Home"
+xmodmap -e "keycode 87 = End"
+xmodmap -e "keycode 81 = Prior"
+xmodmap -e "keycode 89 = Next"
+xmodmap -e "keycode 90 = Insert"

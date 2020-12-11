@@ -1,3 +1,4 @@
+x11-libs/gdk-pixbuf ~amd64
 sys-process/htop ~amd64
 sys-kernel/gentoo-sources ~amd64
 dev-util/cutter ~amd64

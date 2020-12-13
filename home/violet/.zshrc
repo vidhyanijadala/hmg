@@ -11,7 +11,7 @@ export ZSH=$HOME/.oh-my-zsh
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="rounded"
 
-[[ -f /etc/arch-release ]] && ZSH_COMPDUMP="$HOME/.zcompdump-archroot"
+[[ -f /etc/archroot ]] && ZSH_COMPDUMP="$HOME/.zcompdump-archroot"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -103,7 +103,7 @@ source $ZSH/oh-my-zsh.sh
 #alias ls="colorls --sd -A"
 
 PRIV="doas"
-[[ -f /etc/arch-release ]] && PRIV="sudo"
+[[ -f /etc/archroot ]] && PRIV="sudo"
 
 alias c="clear"
 alias q="exit"
@@ -140,6 +140,6 @@ alias pipes2="~/.color-toys/pipes2"
 alias pipes2-slim="~/.color-toys/pipes2-slim"
 
 setopt INC_APPEND_HISTORY
-[[ -f /etc/arch-release ]] && export PS1=" $PS1"
-[[ -f /etc/arch-release ]] && cd ~
-[[ -f /etc/arch-release ]] && alias neofetch="neofetch --source ~/.config/neofetch/images/arch_dark.png"
+[[ -f /etc/archroot ]] && export PS1=" $PS1"
+[[ -f /etc/archroot ]] && cd ~
+[[ -f /etc/archroot ]] && alias neofetch="neofetch --source ~/.config/neofetch/images/arch_dark.png"

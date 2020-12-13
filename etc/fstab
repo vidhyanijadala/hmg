@@ -41,11 +41,11 @@ UUID=d6314a85-d51a-4ca3-861c-3cfcae18ca33    none    swap    sw    0 0
 /dev/zram0    none    swap    sw    0 0
 
 # Use RAM instead of SSD for temp and log files
-#tmpfs    /tmp                 tmpfs    noatime,defaults,mode=1777        0 0
+tmpfs    /tmp                 tmpfs    noatime,defaults,mode=1777        0 0
 #tmpfs    /var/log             tmpfs    noatime,defaults,mode=0755        0 0
 #tmpfs    /var/spool           tmpfs    noatime,defaults,mode=1777        0 0
 #tmpfs    /var/tmp             tmpfs    noatime,defaults,mode=1777        0 0
 
 # NTFS-3G
-#UUID=3EAC7CAF22EC05A1    /media/AllMedia    ntfs-3g    noatime,big_writes,uid=1000,gid=1000,dmask=022,fmask=133    0 0
-#UUID=4000F5C8553DF314    /media/AllData     ntfs-3g    noatime,big_writes,uid=1000,gid=1000,dmask=022,fmask=133    0 0
+UUID=3EAC7CAF22EC05A1    /media/AllMedia    ntfs-3g    noatime,big_writes,uid=1000,gid=1000,dmask=022,fmask=133    0 0
+UUID=4000F5C8553DF314    /media/AllData     ntfs-3g    noatime,big_writes,uid=1000,gid=1000,dmask=022,fmask=133    0 0

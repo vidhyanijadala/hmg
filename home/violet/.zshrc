@@ -11,8 +11,6 @@ export ZSH=$HOME/.oh-my-zsh
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="rounded"
 
-[[ -f /etc/archroot ]] && ZSH_COMPDUMP="$HOME/.zcompdump-archroot"
-
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
@@ -73,8 +71,9 @@ ZSH_THEME="rounded"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(zsh-syntax-highlighting zsh-autosuggestions bgnotify)
 
+[[ -f /etc/archroot ]] && ZSH_COMPDUMP="$HOME/.zcompdump-archroot"
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
-
+setopt INC_APPEND_HISTORY
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -127,6 +126,7 @@ alias pingoogle="ping 8.8.8.8"
 alias trimall="$PRIV fstrim -va"
 alias nanosu="$PRIV nano"
 alias nvimsu="$PRIV nvim"
+alias la="exa -la"
 
 # Color toys aliases
 alias bloks="~/.color-toys/bloks"
@@ -139,7 +139,7 @@ alias pipes1="~/.color-toys/pipes1"
 alias pipes2="~/.color-toys/pipes2"
 alias pipes2-slim="~/.color-toys/pipes2-slim"
 
-setopt INC_APPEND_HISTORY
+# Archroot
 [[ -f /etc/archroot ]] && export PS1=" $PS1"
 [[ -f /etc/archroot ]] && cd ~
 [[ -f /etc/archroot ]] && alias neofetch="neofetch --source ~/.config/neofetch/images/arch_dark.png"

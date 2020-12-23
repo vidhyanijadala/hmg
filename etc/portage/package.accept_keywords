@@ -15,6 +15,7 @@ media-video/handbrake ~amd64
 media-sound/cava ~amd64 missing
 sys-kernel/gentoo-kernel-bin ~amd64
 sys-kernel/xanmod-sources ~amd64
+sys-kernel/liquorix-sources ~amd64
 sys-kernel/linux-headers ~amd64
 sys-kernel/dkms ~amd64
 sys-libs/libstdc++-v3 ~amd64

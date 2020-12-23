@@ -46,6 +46,9 @@ tmpfs    /var/log             tmpfs    noatime,defaults,mode=0755        0 0
 tmpfs    /var/spool           tmpfs    noatime,defaults,mode=1777        0 0
 #tmpfs    /var/tmp             tmpfs    noatime,defaults,mode=1777        0 0
 
+# Gentoo distfiles
+UUID=34c862a2-5a91-4b47-8507-cf5dbd082534    /var/cache/distfiles    noatime    0 0
+
 # NTFS-3G
 UUID=3EAC7CAF22EC05A1    /media/Mark-I    ntfs-3g    noatime,big_writes,uid=1000,gid=1000,dmask=022,fmask=133    0 0
 UUID=4000F5C8553DF314    /media/Mark-II   ntfs-3g    noatime,big_writes,uid=1000,gid=1000,dmask=022,fmask=133    0 0

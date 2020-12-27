@@ -51,7 +51,7 @@ ZSH_THEME="rounded"
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
 # much, much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
+DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
@@ -101,6 +101,8 @@ source $ZSH/oh-my-zsh.sh
 # Aliases
 #alias ls="colorls --sd -A"
 
+export BAT_THEME="base16"
+
 PRIV="doas"
 [[ -f /etc/archroot ]] && PRIV="sudo"
 
@@ -126,7 +128,8 @@ alias pingoogle="ping 8.8.8.8"
 alias trimall="$PRIV fstrim -va"
 alias nanosu="$PRIV nano"
 alias nvimsu="$PRIV nvim"
-alias la="exa -la"
+alias ls="exa -lgh --icons --group-directories-first"
+alias la="exa -lgha --icons --group-directories-first"
 
 # Color toys aliases
 alias bloks="~/.color-toys/bloks"

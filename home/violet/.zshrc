@@ -141,6 +141,7 @@ alias panes="~/.color-toys/panes"
 alias pipes1="~/.color-toys/pipes1"
 alias pipes2="~/.color-toys/pipes2"
 alias pipes2-slim="~/.color-toys/pipes2-slim"
+alias refram="$PRIV bash -c \"sync; echo 3 > /proc/sys/vm/drop_caches\""
 
 # Archroot
 [[ -f /etc/archroot ]] && export PS1=" $PS1"

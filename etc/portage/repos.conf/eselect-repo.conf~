@@ -47,3 +47,7 @@ sync-uri = https://github.com/gentoo-mirror/ricerlay.git
 
 
 
+[unity-gentoo]
+location = /var/db/repos/unity-gentoo
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/unity-gentoo.git

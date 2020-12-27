@@ -1,3 +1,5 @@
+=x11-misc/picom-9999 **
+x11-misc/picom ~amd64
 app-misc/nnn ~amd64
 sys-apps/fd ~amd64
 sys-apps/bat ~amd64

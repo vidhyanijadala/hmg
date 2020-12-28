@@ -1,5 +1,9 @@
+dev-libs/sdbus-cpp ~amd64
+#=dev-libs/properties-cpp-9999 **
+dev-libs/properties-cpp ~amd64
+#=app-emulation/anbox-9999 **
+app-emulation/anbox ~amd64
 =x11-misc/picom-9999 **
-x11-misc/picom ~amd64
 app-misc/nnn ~amd64
 sys-apps/fd ~amd64
 sys-apps/bat ~amd64

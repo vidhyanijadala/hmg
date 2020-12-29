@@ -1,3 +1,4 @@
+net-analyzer/netdiscover ~amd64
 dev-libs/sdbus-cpp ~amd64
 #=dev-libs/properties-cpp-9999 **
 dev-libs/properties-cpp ~amd64

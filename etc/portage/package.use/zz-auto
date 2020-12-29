@@ -61,3 +61,6 @@
 # required by @selected
 # required by @world (argument)
 >=sys-libs/zlib-1.2.11-r2 static-libs
+# required by net-wireless/aircrack-ng-1.6-r1::gentoo[airdrop-ng]
+# required by aircrack-ng (argument)
+>=net-wireless/lorcon-0.0_p20200214 python

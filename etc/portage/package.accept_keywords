@@ -1,9 +1,10 @@
+net-im/element-desktop-bin ~amd64
 net-analyzer/netdiscover ~amd64
-dev-libs/sdbus-cpp ~amd64
-#=dev-libs/properties-cpp-9999 **
-dev-libs/properties-cpp ~amd64
-#=app-emulation/anbox-9999 **
-app-emulation/anbox ~amd64
+dev-cpp/sdbus-cpp ~amd64
+=dev-cpp/properties-cpp-9999 **
+#dev-cpp/properties-cpp ~amd64
+=app-emulation/anbox-9999 **
+#app-emulation/anbox ~amd64
 =x11-misc/picom-9999 **
 app-misc/nnn ~amd64
 sys-apps/fd ~amd64

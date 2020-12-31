@@ -1,3 +1,4 @@
+dev-libs/libfmt ~amd64
 app-mobilephone/scrcpy ~amd64
 net-im/element-desktop-bin ~amd64
 net-analyzer/netdiscover ~amd64

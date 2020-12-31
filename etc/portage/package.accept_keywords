@@ -1,4 +1,4 @@
-=app-mobilephone/scrcpy-9999 **
+app-mobilephone/scrcpy ~amd64
 net-im/element-desktop-bin ~amd64
 net-analyzer/netdiscover ~amd64
 dev-cpp/sdbus-cpp ~amd64

@@ -34,8 +34,8 @@ UUID=d8ce9645-690b-464a-9513-e126132b6c9a    /    f2fs    noatime    0 0
 # Boot EFI on /dev/sda1
 UUID=E476-E614    /boot    vfat    noatime    0 0
 
-# Swap on /dev/sdb3
-UUID=d6314a85-d51a-4ca3-861c-3cfcae18ca33    none    swap    sw    0 0
+# Swap
+#UUID=    none    swap    sw    0 0
 
 # zRAM Swap
 /dev/zram0    none    swap    sw    0 0
@@ -47,8 +47,8 @@ tmpfs    /var/spool           tmpfs    noatime,defaults,mode=1777        0 0
 #tmpfs    /var/tmp             tmpfs    noatime,defaults,mode=1777        0 0
 
 # Gentoo distfiles
-UUID=34c862a2-5a91-4b47-8507-cf5dbd082534    /var/cache/distfiles    ext4    noatime    0 0
+UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /var/cache/distfiles    btrfs    noatime,compress-force=zstd    0 0
 
-# NTFS-3G
-UUID=3EAC7CAF22EC05A1    /media/Mark-I    ntfs-3g    noatime,big_writes,uid=1000,gid=1000,dmask=022,fmask=133    0 0
-UUID=4000F5C8553DF314    /media/Mark-II   ntfs-3g    noatime,big_writes,uid=1000,gid=1000,dmask=022,fmask=133    0 0
+# Data
+UUID=2f409265-d350-4e35-a931-f72bec0943fc    /media/Mark-I     btrfs    noatime,compress-force=zstd    0 0
+UUID=b83f033e-463d-4575-acc3-e93bf55b2d9b    /media/Mark-II    btrfs    noatime,compress-force=zstd    0 0

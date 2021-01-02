@@ -25,9 +25,9 @@ l0:0:wait:/sbin/openrc shutdown
 l0s:0:wait:/sbin/halt.sh
 l1:1:wait:/sbin/openrc single &> /dev/null
 l2:2:wait:/sbin/openrc nonetwork &> /dev/null
-l3:3:wait:/sbin/openrc default &> /dev/null
-l4:4:wait:/sbin/openrc default &> /dev/null
-l5:5:wait:/sbin/openrc default &> /dev/null
+l3:3:wait:/sbin/openrc default
+l4:4:wait:/sbin/openrc default
+l5:5:wait:/sbin/openrc default
 l6u:6:wait:/sbin/telinit u
 l6:6:wait:/sbin/openrc reboot
 l6r:6:wait:/sbin/reboot -dkn

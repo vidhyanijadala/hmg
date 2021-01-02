@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+source /etc/archroot.conf
+
+$PRIV mount -Rv /dev $CHROOT/dev
+$PRIV mount --make-rslave -v $CHROOT/dev
+$PRIV mount -Rv /home $CHROOT/home
+$PRIV mount -Rv /lib/modules $CHROOT/lib/modules
+$PRIV mount -vt proc /proc $CHROOT/proc
+$PRIV mount -Rv /run $CHROOT/run
+$PRIV mount -Rv /sys $CHROOT/sys
+$PRIV mount --make-rslave -v $CHROOT/sys
+$PRIV mount -Rv /tmp $CHROOT/tmp
+$PRIV mount -Rv /var/lib/dbus $CHROOT/var/lib/dbus 

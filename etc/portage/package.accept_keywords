@@ -1,4 +1,4 @@
-media-sound/ncmpcpp ~amd64
+=media-sound/ncmpcpp-9999 **
 net-libs/nodejs ~amd64
 www-apps/hugo ~amd64
 dev-libs/libfmt ~amd64

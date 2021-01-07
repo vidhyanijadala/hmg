@@ -71,9 +71,9 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(zsh-syntax-highlighting zsh-autosuggestions bgnotify)
 
-[[ -f /etc/archroot ]] && ZSH_COMPDUMP="$HOME/.zcompdump-archroot"
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
 setopt INC_APPEND_HISTORY
+[[ -f /etc/archroot ]] && ZSH_COMPDUMP="$HOME/.zcompdump-archroot"
 source $ZSH/oh-my-zsh.sh
 
 # User configuration

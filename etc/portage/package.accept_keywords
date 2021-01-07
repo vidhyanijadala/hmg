@@ -1,3 +1,4 @@
+virtual/dist-kernel ~amd64
 =media-sound/ncmpcpp-9999 **
 net-libs/nodejs ~amd64
 www-apps/hugo ~amd64

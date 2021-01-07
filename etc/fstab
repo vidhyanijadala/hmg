@@ -29,7 +29,7 @@
 #/dev/cdrom		/mnt/cdrom	auto		noauto,ro	0 0
 
 # FileSystem on /dev/sda2 [Gentoo]
-UUID=d8ce9645-690b-464a-9513-e126132b6c9a    /    f2fs    noatime    0 0
+UUID=7f59e8fa-bfcf-4a53-a58c-08627d30a061    /    f2fs    noatime,active_logs=2,compress_algorithm=lz4    0 0
 
 # Boot EFI on /dev/sda1
 UUID=E476-E614    /boot    vfat    noatime    0 0
@@ -41,13 +41,14 @@ UUID=E476-E614    /boot    vfat    noatime    0 0
 /dev/zram0    none    swap    sw    0 0
 
 # Gentoo Shared
-UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /var/cache/distfiles    btrfs    noatime,clear_cache,autodefrag,compress-force=zstd,subvol=distfiles    0 0
-UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /var/log                btrfs    noatime,clear_cache,autodefrag,compress-force=zstd,subvol=var_log      0 0
-UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /var/spool              btrfs    noatime,clear_cache,autodefrag,compress-force=zstd,subvol=var_spool    0 0
-UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /tmp                    btrfs    noatime,clear_cache,autodefrag,compress-force=zstd,subvol=tmp          0 0
-UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /home/violet/.cache     btrfs    noatime,clear_cache,autodefrag,compress-force=zstd,subvol=home_cache   0 0
+UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /var/cache/distfiles    btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=distfiles    0 0
+UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /var/log                btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=var_log      0 0
+UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /var/spool              btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=var_spool    0 0
+UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /tmp                    btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=tmp          0 0
+UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /home/violet/.cache     btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=home_cache   0 0
 
 # HDD Data
-UUID=2f409265-d350-4e35-a931-f72bec0943fc    /media/Mark-I           btrfs    noatime,clear_cache,autodefrag,compress-force=zstd                     0 0
-UUID=2f409265-d350-4e35-a931-f72bec0943fc    /home/violet/Downloads  btrfs    noatime,clear_cache,autodefrag,compress-force=zstd,subvol=Downloads    0 0
-UUID=b83f033e-463d-4575-acc3-e93bf55b2d9b    /media/Mark-II          btrfs    noatime,clear_cache,autodefrag,compress-force=zstd                     0 0
+UUID=2f409265-d350-4e35-a931-f72bec0943fc    /media/Mark-I           btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1                     0 0
+UUID=2f409265-d350-4e35-a931-f72bec0943fc    /home/violet/Documents  btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=Documents    0 0
+UUID=2f409265-d350-4e35-a931-f72bec0943fc    /home/violet/Downloads  btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=Downloads    0 0
+UUID=b83f033e-463d-4575-acc3-e93bf55b2d9b    /media/Mark-II          btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1                     0 0

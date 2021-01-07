@@ -34,11 +34,6 @@
 # required by dev-python/ipykernel-5.3.4-r1::gentoo[-test]
 # required by dev-python/ipyparallel-6.3.0-r1::gentoo[-test]
 >=dev-python/QtPy-1.9.0-r2 printsupport
-# required by dev-ruby/metasploit_data_models-4.1.0::pentoo[ruby_targets_ruby26]
-# required by dev-ruby/metasploit-credential-4.0.2::pentoo[ruby_targets_ruby26]
-# required by net-analyzer/metasploit-6.0.10::pentoo[-test,ruby_targets_ruby26]
-# required by metasploit (argument)
->=dev-ruby/activerecord-5.2.4.4 postgres
 # required by app-editors/neovim-0.4.3::gentoo
 # required by neovim (argument)
 >=dev-lua/lpeg-1.0.1 luajit
@@ -48,14 +43,6 @@
 # required by app-editors/neovim-0.4.3::gentoo
 # required by neovim (argument)
 >=dev-lua/mpack-1.0.4 luajit
-# required by =app-misc/gpick-0.2.4-r2 (argument)
-=app-misc/gpick-0.2.4-r2 -python_targets_python2_7
-# required by media-video/handbrake-1.3.3-r1::gentoo
-# required by handbrake (argument)
->=media-video/ffmpeg-4.3.1 fdk
-# required by app-editors/emacs-27.1-r1::gentoo
-# required by emacs (argument)
->=app-emacs/emacs-common-gentoo-1.6-r4 games
 # required by sys-libs/libunwind-1.5.0::gentoo[zlib]
 # required by media-gfx/gimp-2.10.20-r3::gentoo[unwind]
 # required by @selected

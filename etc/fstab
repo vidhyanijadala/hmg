@@ -35,10 +35,14 @@ UUID=7f59e8fa-bfcf-4a53-a58c-08627d30a061    /    f2fs    noatime,active_logs=2,
 UUID=E476-E614    /boot    vfat    noatime    0 0
 
 # Swap
-#UUID=    none    swap    sw    0 0
+UUID=67168a39-327f-487f-bb3e-ace4f8bdd8fc    none    swap    sw    0 0
 
 # zRAM Swap
 /dev/zram0    none    swap    sw    0 0
+
+# TMPFS
+tmpfs    /run        tmpfs    rw,nosuid,nodev,noexec,mode=755,size=512M    0 0
+tmpfs    /dev/shm    tmpfs    rw,nosuid,nodev,noexec,size=512M             0 0
 
 # Gentoo Shared
 UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /var/cache/distfiles    btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=distfiles    0 0
@@ -46,6 +50,7 @@ UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /var/log                btrfs    no
 UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /var/spool              btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=var_spool    0 0
 UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /tmp                    btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=tmp          0 0
 UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /home/violet/.cache     btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=home_cache   0 0
+UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /root/.cache            btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=root_cache   0 0
 
 # HDD Data
 UUID=2f409265-d350-4e35-a931-f72bec0943fc    /media/Mark-I           btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1                     0 0

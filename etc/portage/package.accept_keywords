@@ -1,4 +1,5 @@
-media-libs/mesa ~amd64
+sys-kernel/liquorix-sources ~amd64
+=x11-misc/rofi-calc-9999 **
 virtual/dist-kernel ~amd64
 =media-sound/ncmpcpp-9999 **
 net-libs/nodejs ~amd64

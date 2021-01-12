@@ -1,3 +1,4 @@
+net-im/signal-desktop-bin ~amd64
 dev-util/geany ~amd64
 =net-wireless/mdk4-9999 **
 =x11-misc/rofi-calc-9999 **

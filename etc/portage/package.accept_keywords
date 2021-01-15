@@ -1,3 +1,6 @@
+media-video/pipewire ~amd64
+dev-libs/ell ~amd64
+net-wireless/iwd ~amd64
 net-im/signal-desktop-bin ~amd64
 dev-util/geany ~amd64
 =net-wireless/mdk4-9999 **

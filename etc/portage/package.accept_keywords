@@ -1,3 +1,5 @@
+dev-lang/lua ~amd64
+net-wireless/iwgtk ~amd64
 media-video/pipewire ~amd64
 dev-libs/ell ~amd64
 net-wireless/iwd ~amd64

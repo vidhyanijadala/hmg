@@ -1,3 +1,7 @@
+media-video/v4l2loopback ~amd64
+media-video/obs-v4l2sink ~amd64
+net-im/zoom ~amd64
+media-gfx/gpick ~amd64
 dev-lang/lua ~amd64
 net-wireless/iwgtk ~amd64
 media-video/pipewire ~amd64

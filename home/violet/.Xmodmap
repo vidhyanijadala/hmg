@@ -1,0 +1,5 @@
+keycode 79 = Home
+keycode 87 = End
+keycode 81 = Prior
+keycode 89 = Next
+keycode 90 = Insert

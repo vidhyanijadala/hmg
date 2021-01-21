@@ -73,7 +73,7 @@ plugins=(zsh-syntax-highlighting zsh-autosuggestions bgnotify)
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
 setopt INC_APPEND_HISTORY
-[[ -f /etc/archroot ]] && ZSH_COMPDUMP="$HOME/.zcompdump-archroot"
+#[[ -f /etc/archroot ]] && ZSH_COMPDUMP="$HOME/.zcompdump-archroot"
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -104,7 +104,7 @@ source $ZSH/oh-my-zsh.sh
 export BAT_THEME="base16"
 
 PRIV="doas"
-[[ -f /etc/archroot ]] && PRIV="sudo"
+#[[ -f /etc/archroot ]] && PRIV="sudo"
 
 alias c="clear"
 alias q="exit"
@@ -145,6 +145,6 @@ alias pipes2-slim="~/.color-toys/pipes2-slim"
 alias refram="$PRIV bash -c \"sync; echo 3 > /proc/sys/vm/drop_caches\""
 
 # Archroot Prompt
-[[ -f /etc/archroot ]] && export PS1=" $PS1"
-[[ -f /etc/archroot ]] && cd ~
-[[ -f /etc/archroot ]] && alias neofetch="neofetch --source ~/.config/neofetch/images/arch_dark.png"
+#[[ -f /etc/archroot ]] && export PS1=" $PS1"
+#[[ -f /etc/archroot ]] && cd ~
+#[[ -f /etc/archroot ]] && alias neofetch="neofetch --source ~/.config/neofetch/images/arch_dark.png"

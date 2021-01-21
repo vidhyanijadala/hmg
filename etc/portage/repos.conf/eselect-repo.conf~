@@ -1,0 +1,31 @@
+# created by eselect-repo
+
+[flussence]
+location = /var/db/repos/flussence
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/flussence.git
+
+[guru]
+location = /var/db/repos/guru
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/guru.git
+
+[src_prepare-overlay]
+location = /var/db/repos/src_prepare-overlay
+sync-type = git
+sync-uri = https://gitlab.com/src_prepare/src_prepare-overlay.git
+
+[maggu2810-overlay]
+location = /var/db/repos/maggu2810-overlay
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/maggu2810-overlay.git
+
+[danrepo]
+location = /var/db/repos/danrepo
+sync-type = git
+sync-uri = https://github.com/ferion11/danrepo.git
+
+[audio-overlay]
+location = /var/db/repos/audio-overlay
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/audio-overlay.git

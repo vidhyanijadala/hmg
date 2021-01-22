@@ -56,4 +56,7 @@ UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /root/.cache            btrfs    no
 UUID=2f409265-d350-4e35-a931-f72bec0943fc    /media/Mark-I           btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1                     0 0
 UUID=2f409265-d350-4e35-a931-f72bec0943fc    /home/violet/Documents  btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=Documents    0 0
 UUID=2f409265-d350-4e35-a931-f72bec0943fc    /home/violet/Downloads  btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=Downloads    0 0
+UUID=2f409265-d350-4e35-a931-f72bec0943fc    /home/violet/Music      btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=Music        0 0
+UUID=2f409265-d350-4e35-a931-f72bec0943fc    /home/violet/Pictures   btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=Pictures     0 0
+UUID=2f409265-d350-4e35-a931-f72bec0943fc    /home/violet/Videos     btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=Videos       0 0
 UUID=b83f033e-463d-4575-acc3-e93bf55b2d9b    /media/Mark-II          btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1                     0 0

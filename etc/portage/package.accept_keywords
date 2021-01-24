@@ -1,13 +1,4 @@
-gui-apps/wf-recorder ~amd64
-dev-libs/date ~amd64
-dev-libs/spdlog ~amd64
-gui-apps/waybar ~amd64
-gui-apps/wcm ~amd64
-gui-libs/wf-config ~amd64
-gui-wm/wayfire ~amd64
-sys-apps/xdg-desktop-portal-gtk ~amd64
 media-video/v4l2loopback ~amd64
-media-video/obs-v4l2sink ~amd64
 media-gfx/gpick ~amd64
 media-video/pipewire ~amd64
 dev-libs/ell ~amd64

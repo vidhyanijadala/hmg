@@ -6,6 +6,7 @@
 # required by @selected
 # required by @world (argument)
 >=dev-qt/qtmultimedia-5.15.1 widgets
+media-libs/libsdl2 gles2
 # required by x11-drivers/xf86-video-vmware-13.3.0::gentoo
 # required by x11-base/xorg-drivers-1.20-r2::gentoo[video_cards_vmware]
 # required by @selected
@@ -30,8 +31,3 @@
 # required by @selected
 # required by @world (argument)
 >=sys-libs/zlib-1.2.11-r2 static-libs
-#
-media-libs/libsdl2 gles2
-# required by gui-apps/mako-1.4.1::gentoo
-# required by gui-apps/mako (argument)
->=sys-apps/dbus-1.12.20-r1 user-session

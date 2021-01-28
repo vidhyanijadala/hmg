@@ -4,7 +4,7 @@ R='\033[1;31m'
 G='\033[1;32m'
 W='\033[1;37m'
 
-kern() { echo -n -e "${G}* ${W}Booting with ${R}$(uname -r) ${W}"; }
+kern() { echo -n -e "${G} * ${W}Booting with ${R}$(uname -r) ${W}"; }
 dots() { echo -n -e "${W}$@" && sleep .25s; }
 
 {

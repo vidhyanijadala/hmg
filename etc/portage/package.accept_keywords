@@ -1,3 +1,4 @@
+net-misc/aria2 ~amd64
 media-gfx/fbgrab ~amd64
 media-video/v4l2loopback ~amd64
 media-gfx/gpick ~amd64

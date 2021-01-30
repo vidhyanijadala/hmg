@@ -148,3 +148,5 @@ alias refram="$PRIV bash -c \"sync; echo 3 > /proc/sys/vm/drop_caches\""
 #[[ -f /etc/archroot ]] && export PS1=" $PS1"
 #[[ -f /etc/archroot ]] && cd ~
 #[[ -f /etc/archroot ]] && alias neofetch="neofetch --source ~/.config/neofetch/images/arch_dark.png"
+
+export GPG_TTY=$(tty)

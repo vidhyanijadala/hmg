@@ -1,41 +1,8 @@
 # required by app-misc/neofetch-6.0.0::gentoo[X]
 # required by neofetch (argument)
 >=www-client/w3m-0.5.3_p20180125 imlib
-# required by dev-python/PyQt5-5.14.2-r1::gentoo[multimedia]
-# required by media-sound/pulseaudio-13.0::gentoo[equalizer,qt5]
-# required by @selected
-# required by @world (argument)
->=dev-qt/qtmultimedia-5.15.1 widgets
-media-libs/libsdl2 gles2
-# required by x11-drivers/xf86-video-vmware-13.3.0::gentoo
-# required by x11-base/xorg-drivers-1.20-r2::gentoo[video_cards_vmware]
-# required by @selected
-# required by @world (argument)
->=x11-libs/libdrm-2.4.102 libkms
-# required by x11-drivers/xf86-video-vmware-13.3.0::gentoo
-# required by x11-base/xorg-drivers-1.20-r2::gentoo[video_cards_vmware]
-# required by @selected
-# required by @world (argument)
->=media-libs/mesa-20.1.10 xa
-# required by app-editors/neovim-0.4.3::gentoo
-# required by neovim (argument)
->=dev-lua/lpeg-1.0.1 luajit
-# required by app-editors/neovim-0.4.3::gentoo
-# required by neovim (argument)
->=dev-lua/luv-1.32.0.0 luajit
-# required by app-editors/neovim-0.4.3::gentoo
-# required by neovim (argument)
->=dev-lua/mpack-1.0.4 luajit
 # required by sys-libs/libunwind-1.5.0::gentoo[zlib]
 # required by media-gfx/gimp-2.10.20-r3::gentoo[unwind]
 # required by @selected
 # required by @world (argument)
 >=sys-libs/zlib-1.2.11-r2 static-libs
-# required by app-emulation/virt-manager-3.1.0::gentoo[gtk]
-# required by virt-manager (argument)
->=net-misc/spice-gtk-0.37-r2 usbredir
-# required by app-emulation/libvirt-6.8.0-r2::gentoo[virt-network]
-# required by app-emulation/libvirt-glib-3.0.0::gentoo
-# required by app-emulation/virt-manager-3.1.0::gentoo
-# required by virt-manager (argument)
->=net-dns/dnsmasq-2.83-r101 script

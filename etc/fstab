@@ -38,9 +38,6 @@ UUID=E476-E614    /boot    vfat    noatime    0 0
 tmpfs    /run        tmpfs    rw,nosuid,nodev,noexec,mode=755,size=512M    0 0
 tmpfs    /dev/shm    tmpfs    rw,nosuid,nodev,noexec,size=512M             0 0
 
-# zRAM Swap
-/dev/zram0    none    swap    sw    0 0
-
 # Swap
 UUID=67168a39-327f-487f-bb3e-ace4f8bdd8fc    none    swap    sw    0 0
 

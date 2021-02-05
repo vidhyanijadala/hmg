@@ -18,7 +18,7 @@ GRUB_TIMEOUT=-1
 #GRUB_TIMEOUT_STYLE=menu
 
 # Append parameters to the linux kernel command line
-GRUB_CMDLINE_LINUX="usbcore.autosuspend=-1 loglevel=4"
+GRUB_CMDLINE_LINUX="quiet"
 #
 # Examples:
 #

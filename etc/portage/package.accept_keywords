@@ -1,3 +1,4 @@
+x11-wm/xmonad ~amd64
 media-video/v4l2loopback ~amd64
 media-gfx/gpick ~amd64
 media-video/pipewire ~amd64

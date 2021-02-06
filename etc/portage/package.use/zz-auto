@@ -6,3 +6,9 @@
 # required by @selected
 # required by @world (argument)
 >=sys-libs/zlib-1.2.11-r2 static-libs
+# required by x11-drivers/xf86-video-vmware-13.3.0::gentoo
+# required by x11-base/xorg-drivers-1.20-r2::gentoo[video_cards_vmware]
+# required by @selected
+# required by @world (argument)
+>=x11-libs/libdrm-2.4.103 libkms
+>=media-libs/mesa-20.2.6:0 xa

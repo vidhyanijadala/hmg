@@ -1,1 +1,1 @@
-media-sound/pulseaudio alsa alsa-plugins
+media-sound/pulseaudio alsa alsa-plugins realtime

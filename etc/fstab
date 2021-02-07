@@ -42,9 +42,11 @@ tmpfs    /dev/shm    tmpfs    rw,nosuid,nodev,noexec,size=512M             0 0
 UUID=67168a39-327f-487f-bb3e-ace4f8bdd8fc    none    swap    sw    0 0
 
 # Gentoo Shared
+UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /usr/src                btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=usr_src      0 0
 UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /var/cache/distfiles    btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=distfiles    0 0
 UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /var/log                btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=var_log      0 0
 UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /var/spool              btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=var_spool    0 0
+UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /var/tmp                btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=var_tmp      0 0
 UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /tmp                    btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=tmp          0 0
 UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /home/violet/.cache     btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=home_cache   0 0
 UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /root/.cache            btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=root_cache   0 0

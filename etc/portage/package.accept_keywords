@@ -1,3 +1,4 @@
+dev-libs/ell ~amd64
 app-editors/vscodium-bin ~amd64
 dev-util/rustup ~amd64
 x11-wm/xmonad ~amd64

@@ -1,3 +1,4 @@
+app-benchmarks/stress-ng ~amd64
 dev-libs/ell ~amd64
 app-editors/vscodium-bin ~amd64
 dev-util/rustup ~amd64

@@ -8,7 +8,7 @@ dots() { echo -n -e "${W}$@" && read -rt ".25" <> <(:) || :; }
 {
     kern
     dots ""; dots "."; dots "."; dots "."
-    echo -e "\ec"
+    clear
 }
 
 /sbin/openrc sysinit

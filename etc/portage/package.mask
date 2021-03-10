@@ -1,0 +1,2 @@
+>=dev-lang/lua-5.4.2
+>=media-libs/mesa-20.3.4

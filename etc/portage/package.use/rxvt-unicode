@@ -1,1 +1,1 @@
-x11-terms/rxvt-unicode font-styles mousewheel perl startup-notification blink gdk-pixbuf unicode3 xft -utmp -wtmp
+x11-terms/rxvt-unicode font-styles mousewheel perl sgrmouse blink gdk-pixbuf unicode3 xft -startup-notification -utmp -wtmp

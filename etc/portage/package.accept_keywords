@@ -1,3 +1,4 @@
+app-emulation/wine-staging ~amd64
 =x11-wm/awesome-9999 **
 sys-apps/dmidecode ~amd64
 app-benchmarks/stress-ng ~amd64

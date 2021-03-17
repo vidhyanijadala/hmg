@@ -1,0 +1,2 @@
+dev-util/geany -vte
+dev-util/geany-plugins -lua_single_target_lua5-1

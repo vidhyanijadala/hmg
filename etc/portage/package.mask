@@ -1,3 +1,5 @@
+# Use official instead
+>=sys-auth/polkit-0.118-r2::danrepo
 # Deprecated lxsession
 <lxde-base/lxde-icon-theme-0.5.1-r1
 <lxde-base/lxsession-0.5.5

@@ -1,6 +1,8 @@
-# Steam
+# Steam & gamemode
 games-util/game-device-udev-rules ~amd64
 games-util/steam-launcher ~amd64
+=games-util/gamemode-9999 **
+dev-libs/inih ~amd64
 # LXSession
 lxde-base/lxde-icon-theme ~amd64
 lxde-base/lxde-common ~amd64

@@ -2,3 +2,7 @@
 app-eselect/eselect-lua
 # Gentoo kernel
 sys-kernel/gentoo-kernel-bin
+# LXSession
+lxde-base/lxde-icon-theme
+lxde-base/lxde-common
+lxde-base/lxsession

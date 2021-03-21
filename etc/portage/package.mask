@@ -1,8 +1,7 @@
+# Latest libunique 
+>dev-libs/libunique-1.1.6-r2
 # Use official instead
 >=sys-auth/polkit-0.118-r2::danrepo
-# Deprecated lxsession
-<lxde-base/lxde-icon-theme-0.5.1-r1
-<lxde-base/lxsession-0.5.5
 # Lua 5.4.2 (too latest)
 >=dev-lang/lua-5.4.2
 # Mesa 20.3.4 (chrome-based browser issues)

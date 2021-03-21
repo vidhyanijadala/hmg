@@ -3,10 +3,6 @@ games-util/game-device-udev-rules ~amd64
 games-util/steam-launcher ~amd64
 =games-util/gamemode-9999 **
 dev-libs/inih ~amd64
-# LXSession
-lxde-base/lxde-icon-theme ~amd64
-lxde-base/lxde-common ~amd64
-lxde-base/lxsession ~amd64
 # Wine
 app-emulation/wine-mono ~amd64
 app-emulation/wine-staging ~amd64

@@ -1,3 +1,8 @@
+# Rust
+virtual/rust ~amd64
+dev-lang/rust-bin ~amd64
+# P7zip
+app-arch/p7zip ~amd64
 # Steam & gamemode
 games-util/game-device-udev-rules ~amd64
 games-util/steam-launcher ~amd64

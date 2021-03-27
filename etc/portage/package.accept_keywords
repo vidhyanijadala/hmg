@@ -1,3 +1,5 @@
+# Dunst
+x11-misc/dunst ~amd64
 # Rust
 virtual/rust ~amd64
 dev-lang/rust-bin ~amd64
@@ -11,16 +13,12 @@ dev-libs/inih ~amd64
 # Wine
 app-emulation/wine-mono ~amd64
 app-emulation/wine-staging ~amd64
-# AwesomeWM
-=x11-wm/awesome-9999 **
 # Dmidecode
 sys-apps/dmidecode ~amd64
 # Stress-ng
 app-benchmarks/stress-ng ~amd64
 # Ell
 dev-libs/ell ~amd64
-# VSCodium
-app-editors/vscodium-bin ~amd64
 # Rustup
 dev-util/rustup ~amd64
 # Gpick
@@ -40,8 +38,6 @@ sys-kernel/xanmod-sources ~amd64
 sys-kernel/linux-headers ~amd64
 # Ncmpcpp
 =media-sound/ncmpcpp-9999 **
-# Hugo SSG
-www-apps/hugo ~amd64
 # Picom
 =x11-misc/picom-9999 **
 # Bat (cat replacements)

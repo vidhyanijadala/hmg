@@ -501,3 +501,11 @@
 # required by @selected
 # required by @world (argument)
 >=x11-libs/libxkbcommon-1.0.3 abi_x86_32
+# required by app-emulation/virt-manager-3.1.0::gentoo[gtk]
+# required by virt-manager (argument)
+>=net-misc/spice-gtk-0.37-r2 usbredir
+# required by app-emulation/libvirt-7.0.0-r1::gentoo[virt-network]
+# required by app-emulation/libvirt-glib-3.0.0::gentoo
+# required by app-emulation/virt-manager-3.1.0::gentoo
+# required by virt-manager (argument)
+>=net-dns/dnsmasq-2.83-r101 script

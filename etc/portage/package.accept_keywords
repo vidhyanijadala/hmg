@@ -1,3 +1,5 @@
+# Efibootmgr
+sys-boot/efibootmgr ~amd64
 # Dunst
 x11-misc/dunst ~amd64
 # Rust

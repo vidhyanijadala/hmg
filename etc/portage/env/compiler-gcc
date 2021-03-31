@@ -1,8 +1,6 @@
 CC="gcc"
 CXX="g++"
-
-CFLAGS="-march=native -O2 -pipe"
+CFLAGS="-flto -march=native -O2 -pipe -fomit-frame-pointer"
 CXXFLAGS="${CFLAGS}"
 FCFLAGS="${CFLAGS}"
 FFLAGS="${CFLAGS}"
-LDFLAGS=""

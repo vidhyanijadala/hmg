@@ -4,5 +4,3 @@
 >=sys-auth/polkit-0.118-r2::danrepo
 # Lua 5.4.2 (too latest)
 >=dev-lang/lua-5.4.2
-# Mesa 20.3.4 (chrome-based browser issues)
-#>=media-libs/mesa-20.3.4

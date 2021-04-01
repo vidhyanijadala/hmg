@@ -1,3 +1,5 @@
+# Mesa
+media-libs/mesa ~amd64
 # Efibootmgr
 sys-boot/efibootmgr ~amd64
 # Dunst

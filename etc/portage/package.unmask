@@ -1,6 +1,6 @@
 # Lua
 app-eselect/eselect-lua
-# LXSession
+# Partial LXDE
 lxde-base/lxde-icon-theme
 lxde-base/lxde-common
 lxde-base/lxsession

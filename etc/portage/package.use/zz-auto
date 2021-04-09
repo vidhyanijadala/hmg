@@ -95,7 +95,7 @@
 >=sys-apps/dbus-1.12.20-r1 abi_x86_32
 # required by app-emulation/wine-staging-6.1::gentoo[unwind]
 # required by app-emulation/wine-staging (argument)
->=sys-libs/libunwind-1.5.0-r1 abi_x86_32
+>=sys-libs/libunwind-1.5.0-r1 abi_x86_32 static-libs
 # required by app-emulation/wine-staging-6.1::gentoo[v4l]
 # required by app-emulation/wine-staging (argument)
 >=media-libs/libv4l-1.20.0 abi_x86_32

@@ -1,5 +1,5 @@
-# Compiler Cache
-dev-util/ccache ~amd64
+# PigZ
+app-arch/pigz ~amd64
 # Shared MIME-info
 x11-misc/shared-mime-info ~amd64
 # Mesa

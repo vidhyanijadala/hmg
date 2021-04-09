@@ -1,6 +1,7 @@
-# Latest libunique 
+# Useless stuff
+dev-util/wayland-scanner
+dev-util/ragel
+# Too latest libunique 
 >dev-libs/libunique-1.1.6-r2
 # Use official instead
 >=sys-auth/polkit-0.118-r2::danrepo
-# Lua 5.4.2 (too latest)
->=dev-lang/lua-5.4.2

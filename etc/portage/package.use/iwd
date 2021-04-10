@@ -1,1 +1,1 @@
-net-wireless/iwd wired standalone
+net-wireless/iwd standalone wired -crda

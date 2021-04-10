@@ -1,6 +1,8 @@
+# - GNU C Compiler
 CC="gcc"
 CXX="g++"
 CFLAGS="-flto -march=native -O2 -pipe -fomit-frame-pointer"
 CXXFLAGS="${CFLAGS}"
 FCFLAGS="${CFLAGS}"
 FFLAGS="${CFLAGS}"
+LDFLAGS="-Wl,-O2 -Wl,--as-needed"

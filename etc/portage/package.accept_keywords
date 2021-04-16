@@ -1,3 +1,5 @@
+# Imagemagick
+#media-gfx/imagemagick ~amd64
 # PigZ
 app-arch/pigz ~amd64
 # Shared MIME-info

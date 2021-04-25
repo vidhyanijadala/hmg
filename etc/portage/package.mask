@@ -1,3 +1,5 @@
+# Temporary
+media-gfx/imagemagick
 # Useless stuff
 dev-util/wayland-scanner
 dev-util/ragel

@@ -42,7 +42,7 @@ tmpfs    /dev/shm    tmpfs    rw,nosuid,nodev,noexec,size=512M             0 0
 UUID=67168a39-327f-487f-bb3e-ace4f8bdd8fc    none    swap    sw    0 0
 
 # Gentoo Shared
-UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /home/violet/.cache     btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=home_cache   0 0
+UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /home/kyoko/.cache      btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=home_cache   0 0
 UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /root/.cache            btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=root_cache   0 0
 UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /tmp                    btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=tmp          0 0
 UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /usr/src                btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=usr_src      0 0
@@ -53,9 +53,9 @@ UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /var/tmp                btrfs    no
 
 # HDD Data
 UUID=2f409265-d350-4e35-a931-f72bec0943fc    /media/Mark-I           btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1                     0 0
-UUID=2f409265-d350-4e35-a931-f72bec0943fc    /home/violet/Documents  btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=Documents    0 0
-UUID=2f409265-d350-4e35-a931-f72bec0943fc    /home/violet/Downloads  btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=Downloads    0 0
-UUID=2f409265-d350-4e35-a931-f72bec0943fc    /home/violet/Music      btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=Music        0 0
-UUID=2f409265-d350-4e35-a931-f72bec0943fc    /home/violet/Pictures   btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=Pictures     0 0
-UUID=2f409265-d350-4e35-a931-f72bec0943fc    /home/violet/Videos     btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=Videos       0 0
+UUID=2f409265-d350-4e35-a931-f72bec0943fc    /home/kyoko/Documents   btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=Documents    0 0
+UUID=2f409265-d350-4e35-a931-f72bec0943fc    /home/kyoko/Downloads   btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=Downloads    0 0
+UUID=2f409265-d350-4e35-a931-f72bec0943fc    /home/kyoko/Music       btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=Music        0 0
+UUID=2f409265-d350-4e35-a931-f72bec0943fc    /home/kyoko/Pictures    btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=Pictures     0 0
+UUID=2f409265-d350-4e35-a931-f72bec0943fc    /home/kyoko/Videos      btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=Videos       0 0
 UUID=b83f033e-463d-4575-acc3-e93bf55b2d9b    /media/Mark-II          btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1                     0 0

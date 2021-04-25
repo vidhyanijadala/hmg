@@ -1,9 +1,8 @@
 #!/usr/bin/env sh
-LC_ALL=C; LANG=C
+LC_ALL=C LANG=C W="\033[1;37m" R="\033[1;31m" G="\033[1;32m" NC="\033[0m"
 
-W="\033[1;37m"; R="\033[1;31m"; G="\033[1;32m"; NC="\033[0m"
 kern() { printf " ${G}* ${W}Booting with ${R}$(uname -r) "; }
-dots() { 
+dots() {
     for x in $(seq 1 4); do
         if [ "$x" -gt 1 ]; then
             printf "${W}.${NC}"

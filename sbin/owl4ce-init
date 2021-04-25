@@ -7,7 +7,7 @@ dots() {
         if [ "$x" -gt 1 ]; then
             printf "${W}.${NC}"
         fi
-        sleep .25s
+        sleep .1s
     done
 }
 

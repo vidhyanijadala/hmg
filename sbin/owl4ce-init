@@ -12,3 +12,4 @@ dots() {
 }
 
 kern; dots; clear; /sbin/openrc sysinit
+exit 0

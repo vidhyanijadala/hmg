@@ -1,4 +1,4 @@
-# - GNU C Compiler
+# - GNU Compiler Collection
 CC="gcc"
 CXX="g++"
 CFLAGS="-flto -march=native -O2 -pipe -fomit-frame-pointer"

@@ -1,3 +1,5 @@
+# Nano text-editor
+app-editors/nano ~amd64
 # LXAppearance
 lxde-base/lxappearance ~amd64
 # Imagemagick

@@ -1,11 +1,18 @@
 # LLVM Toolchain
-sys-devel/llvm ~amd64
-sys-libs/libcxx ~amd64
-sys-libs/libcxxabi ~amd64
-sys-libs/compiler-rt ~amd64
-sys-libs/compiler-rt-sanitizers ~amd64
-sys-devel/lld ~amd64
-sys-devel/clang ~amd64
+#sys-devel/llvmgold ~amd64
+#sys-devel/llvm ~amd64
+#sys-libs/libcxx ~amd64
+#sys-libs/libcxxabi ~amd64
+#sys-libs/compiler-rt ~amd64
+#sys-libs/compiler-rt-sanitizers ~amd64
+#sys-devel/lld ~amd64
+#sys-libs/libomp ~amd64
+#sys-devel/clang-runtime ~amd64
+#sys-devel/clang ~amd64
+# Rust
+#virtual/rust ~amd64
+#dev-lang/rust-bin ~amd64
+
 # Nano text-editor
 app-editors/nano ~amd64
 # LXAppearance
@@ -23,9 +30,6 @@ x11-libs/libdrm ~amd64
 sys-boot/efibootmgr ~amd64
 # Dunst
 x11-misc/dunst ~amd64
-# Rust
-virtual/rust ~amd64
-dev-lang/rust-bin ~amd64
 # P7zip
 app-arch/p7zip ~amd64
 # Steam & gamemode

@@ -1,7 +1,5 @@
 # Useless stuff
-dev-util/wayland-scanner
+#dev-util/wayland-scanner
 dev-lang/rust
 # Too latest libunique 
 >dev-libs/libunique-1.1.6-r2
-# Use official instead
->=sys-auth/polkit-0.118-r2::danrepo

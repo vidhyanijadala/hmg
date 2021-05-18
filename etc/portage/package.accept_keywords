@@ -1,3 +1,11 @@
+# LLVM Toolchain
+sys-devel/llvm ~amd64
+sys-libs/libcxx ~amd64
+sys-libs/libcxxabi ~amd64
+sys-libs/compiler-rt ~amd64
+sys-libs/compiler-rt-sanitizers ~amd64
+sys-devel/lld ~amd64
+sys-devel/clang ~amd64
 # Nano text-editor
 app-editors/nano ~amd64
 # LXAppearance

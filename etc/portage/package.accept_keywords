@@ -17,6 +17,10 @@
 x11-terms/rxvt-unicode ~amd64
 # Nano
 app-editors/nano ~amd64
+# LXSession
+#lxde-base/lxsession ~amd64
+#lxde-base/lxde-common ~amd64
+#lxde-base/lxde-icon-theme ~amd64
 # LXAppearance
 lxde-base/lxappearance ~amd64
 # Imagemagick

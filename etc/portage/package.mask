@@ -1,4 +1,4 @@
-# Useless stuff
+# Use rust-bin instead
 dev-lang/rust
-# Too latest libunique 
->dev-libs/libunique-1.1.6-r2
+# Use Gentoo's polkit instead
+=sys-auth/polkit-0.118-r2::danrepo

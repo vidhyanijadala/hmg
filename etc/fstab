@@ -23,11 +23,6 @@
 #       documentation for details on setting a label. To obtain the UUID, use
 #       the blkid(8) command.
 
-#LABEL=boot		/boot		ext4		noauto,noatime	1 2
-#UUID=58e72203-57d1-4497-81ad-97655bd56494		/		ext4		noatime		0 1
-#LABEL=swap		none		swap		sw		0 0
-#/dev/cdrom		/mnt/cdrom	auto		noauto,ro	0 0
-
 # FileSystem on /dev/sda2 [Gentoo]
 UUID=7f59e8fa-bfcf-4a53-a58c-08627d30a061    /    f2fs    noatime,active_logs=2,compress_algorithm=lz4    0 0
 

@@ -1,8 +1,6 @@
-# `hold-my-gentoo` [backup] <img alt="" align="right" src="https://badges.pufler.dev/visits/owl4ce/hmg?style=flat-square&label=&color=000000&logo=GitHub&logoColor=white&labelColor=373e4d"/>
+## <p align="center">Sat May 22 09:24:34 AM WIB 2021</p>
 
-## <p align="right">Sat May 22 09:24:34 AM WIB 2021</p>
-
-### Warning !!!
+### Warning !!! <img alt="" align="right" src="https://badges.pufler.dev/visits/owl4ce/hmg?style=flat-square&label=&color=000000&logo=GitHub&logoColor=white&labelColor=373e4d"/>
 I'm not going to explain, but this you have to understand rather than putting these files on your machine.
 
 <p align="center"><img src="https://i.ibb.co/1T0rYL4/final.gif"/></p>

@@ -1,0 +1,43 @@
+name: Update README.md
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    - cron: "0 */1 * * *"
+  
+  workflow_dispatch:
+  
+jobs:
+  update_readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@master
+
+      - name: Expose git commit data
+        uses: rlespinasse/git-commit-data-action@v1.x
+
+      - name: Generate README.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
+        run: |
+          export README_md="$(cat ./.github/README.md.tpl)"
+          if [[ "${{ env.GIT_COMMIT_MESSAGE_SUBJECT }}" =~ ^(.*AM.*|.*PM.*)$ ]]; then
+             printf "%s\n" "$README_md" | sed "s/_LATEST_UPDATE_/${{ env.GIT_COMMIT_MESSAGE_SUBJECT }}/" > ./README.md
+          fi
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          commit_message: '`:hibiscus: AMADEUS` 🡲 Sync README.md'
+          branch: 'main'
+          commit_user_name: '牧瀬 紅莉栖'
+          commit_user_email: 'findarr@pm.me'
+          commit_author: '牧瀬 紅莉栖  <findarr@pm.me>'
+          add_options: '-u'
+          skip_dirty_check: true
+          disable_globbing: true

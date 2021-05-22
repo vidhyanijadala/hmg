@@ -19,10 +19,6 @@ sys-devel/gcc ~amd64
 x11-terms/rxvt-unicode ~amd64
 # Nano
 app-editors/nano ~amd64
-# LXSession
-#lxde-base/lxsession ~amd64
-#lxde-base/lxde-common ~amd64
-#lxde-base/lxde-icon-theme ~amd64
 # LXAppearance
 lxde-base/lxappearance ~amd64
 # Imagemagick
@@ -52,14 +48,13 @@ app-emulation/wine-staging ~amd64
 sys-apps/dmidecode ~amd64
 # Stress-ng
 app-benchmarks/stress-ng ~amd64
-# Ell
+# Iwd + Ell
 dev-libs/ell ~amd64
+net-wireless/iwd ~amd64
 # Rustup
 dev-util/rustup ~amd64
 # Gpick
 media-gfx/gpick ~amd64
-# Iwd
-net-wireless/iwd ~amd64
 # Geany
 dev-util/geany ~amd64
 # Rofi+calc
@@ -85,8 +80,6 @@ sys-process/htop ~amd64
 app-office/wps-office ~amd64
 # Handbrake
 media-video/handbrake ~amd64
-# libstdc++-v3
-sys-libs/libstdc++-v3 ~amd64
 # QT5 style plugins
 dev-qt/qtstyleplugins ~amd64
 # Simplescreenrecorder

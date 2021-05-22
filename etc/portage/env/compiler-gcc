@@ -1,8 +1,11 @@
-# - GNU Compiler Collection
+# GNU Compiler Collection
 CC="gcc"
 CXX="g++"
-CFLAGS="-flto -march=native -O2 -pipe -fomit-frame-pointer"
+CFLAGS="-flto=4 -march=native -O2 -pipe -fomit-frame-pointer"
 CXXFLAGS="${CFLAGS}"
 FCFLAGS="${CFLAGS}"
 FFLAGS="${CFLAGS}"
 LDFLAGS="-Wl,-O2 -Wl,--as-needed"
+AR="gcc-ar"
+NM="gcc-nm"
+RANLIB="gcc-ranlib"

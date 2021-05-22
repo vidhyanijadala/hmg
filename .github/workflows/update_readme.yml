@@ -27,6 +27,9 @@ jobs:
           export README_md="$(cat ./.github/README.md.tpl)"
           if [[ "${{ env.GIT_COMMIT_MESSAGE_SUBJECT }}" =~ ^(.*AM.*|.*PM.*)$ ]]; then
              printf "%s\n" "$README_md" | sed "s/_LATEST_UPDATE_/${{ env.GIT_COMMIT_MESSAGE_SUBJECT }}/" > ./README.md
+          elif [[ "${{ env.GIT_COMMIT_MESSAGE_SUBJECT }}" = "Update README.md.tpl" ]]; then
+             export DATE_sign="$(grep -oP '## .*>\K[^</]+' README.md)"
+             printf "%s\n" "$README_md" | sed "s/_LATEST_UPDATE_/$DATE_sign/" > ./README.md
           fi
 
       - uses: stefanzweifel/git-auto-commit-action@v4

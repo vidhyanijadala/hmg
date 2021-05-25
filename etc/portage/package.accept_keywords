@@ -13,8 +13,6 @@
 #virtual/rust ~amd64
 #dev-lang/rust-bin ~amd64
 
-# GNU Compiler Collection
-sys-devel/gcc ~amd64
 # URxvt
 x11-terms/rxvt-unicode ~amd64
 # Nano

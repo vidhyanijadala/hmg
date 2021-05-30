@@ -23,34 +23,39 @@
 #       documentation for details on setting a label. To obtain the UUID, use
 #       the blkid(8) command.
 
+#LABEL=boot		/boot		ext4		noauto,noatime	1 2
+#UUID=58e72203-57d1-4497-81ad-97655bd56494		/		ext4		noatime		0 1
+#LABEL=swap		none		swap		sw		0 0
+#/dev/cdrom		/mnt/cdrom	auto		noauto,ro	0 0
+
 # FileSystem on /dev/sda2 [Gentoo]
-UUID=7f59e8fa-bfcf-4a53-a58c-08627d30a061    /    f2fs    noatime,active_logs=2,compress_algorithm=lz4    0 0
+PARTUUID=a157257a-6617-cd4c-b07f-2c33d4cb89f8    /    f2fs    noatime,active_logs=2,compress_algorithm=lz4    0 0
 
 # Boot EFI on /dev/sda1
-UUID=E476-E614    /boot    vfat    noatime    0 0
+PARTUUID=441468c8-c765-6a45-8ea8-6f8ce03a1d49    /boot    vfat    noatime    0 0
 
 # TmpFS
 tmpfs    /run        tmpfs    rw,nosuid,nodev,noexec,mode=755,size=512M    0 0
 tmpfs    /dev/shm    tmpfs    rw,nosuid,nodev,noexec,size=512M             0 0
 
 # Swap
-UUID=67168a39-327f-487f-bb3e-ace4f8bdd8fc    none    swap    sw    0 0
+PARTUUID=e71a3dc0-b4a2-4fae-9771-f554feceba7f    none    swap    sw    0 0
 
 # Gentoo Shared
-UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /home/kyoko/.cache      btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=home_cache   0 0
-UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /root/.cache            btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=root_cache   0 0
-UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /tmp                    btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=tmp          0 0
-UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /usr/src                btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=usr_src      0 0
-UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /var/cache/distfiles    btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=distfiles    0 0
-UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /var/log                btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=var_log      0 0
-UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /var/spool              btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=var_spool    0 0
-UUID=e3d0c780-aa21-4585-a3b1-5f1b3d929197    /var/tmp                btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=var_tmp      0 0
+PARTUUID=85ccbba4-3f40-41bf-8549-09621747d041    /home/kyoko/.cache      btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=home_cache   0 0
+PARTUUID=85ccbba4-3f40-41bf-8549-09621747d041    /root/.cache            btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=root_cache   0 0
+PARTUUID=85ccbba4-3f40-41bf-8549-09621747d041    /tmp                    btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=tmp          0 0
+PARTUUID=85ccbba4-3f40-41bf-8549-09621747d041    /usr/src                btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=usr_src      0 0
+PARTUUID=85ccbba4-3f40-41bf-8549-09621747d041    /var/cache/distfiles    btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=distfiles    0 0
+PARTUUID=85ccbba4-3f40-41bf-8549-09621747d041    /var/log                btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=var_log      0 0
+PARTUUID=85ccbba4-3f40-41bf-8549-09621747d041    /var/spool              btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=var_spool    0 0
+PARTUUID=85ccbba4-3f40-41bf-8549-09621747d041    /var/tmp                btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=var_tmp      0 0
 
 # HDD Data
-UUID=2f409265-d350-4e35-a931-f72bec0943fc    /media/Mark-I           btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1                     0 0
-UUID=2f409265-d350-4e35-a931-f72bec0943fc    /home/kyoko/Documents   btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=Documents    0 0
-UUID=2f409265-d350-4e35-a931-f72bec0943fc    /home/kyoko/Downloads   btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=Downloads    0 0
-UUID=2f409265-d350-4e35-a931-f72bec0943fc    /home/kyoko/Music       btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=Music        0 0
-UUID=2f409265-d350-4e35-a931-f72bec0943fc    /home/kyoko/Pictures    btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=Pictures     0 0
-UUID=2f409265-d350-4e35-a931-f72bec0943fc    /home/kyoko/Videos      btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=Videos       0 0
-UUID=b83f033e-463d-4575-acc3-e93bf55b2d9b    /media/Mark-II          btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1                     0 0
+PARTUUID=748b5670-ed25-a64a-a1cd-6b3ddf32324c    /media/Mark-I           btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1                     0 0
+PARTUUID=748b5670-ed25-a64a-a1cd-6b3ddf32324c    /home/kyoko/Documents   btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=Documents    0 0
+PARTUUID=748b5670-ed25-a64a-a1cd-6b3ddf32324c    /home/kyoko/Downloads   btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=Downloads    0 0
+PARTUUID=748b5670-ed25-a64a-a1cd-6b3ddf32324c    /home/kyoko/Music       btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=Music        0 0
+PARTUUID=748b5670-ed25-a64a-a1cd-6b3ddf32324c    /home/kyoko/Pictures    btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=Pictures     0 0
+PARTUUID=748b5670-ed25-a64a-a1cd-6b3ddf32324c    /home/kyoko/Videos      btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=Videos       0 0
+PARTUUID=c128a0ae-89d7-4a89-89f1-42c638398012    /media/Mark-II          btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1                     0 0

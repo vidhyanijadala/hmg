@@ -1,3 +1,3 @@
 if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
-   exec startx -- vt01 -keeptty -nolisten tcp > /dev/null 2>&1
+   exec startx -- vt01 -keeptty -nolisten tcp &>/dev/null
 fi

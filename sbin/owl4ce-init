@@ -1,15 +1,17 @@
-#!/usr/bin/env sh
-LC_ALL=C LANG=C W="\033[1;37m" R="\033[1;31m" G="\033[1;32m" NC="\033[0m"
+#!/bin/sh
+LC_ALL=C LANG=C; W="\033[1;37m" R="\033[1;31m" G="\033[1;32m" NC="\033[0m"
+
+INIT="/sbin/openrc sysinit"
 
 kern() { printf " ${G}* ${W}Booting with ${R}$(uname -r) "; }
 dots() {
-    for x in $(seq 1 4); do
-        if [ "$x" -gt 1 ]; then
+    for X in $(seq 1 4); do
+        if [ "$X" -gt 1 ]; then
             printf "${W}.${NC}"
         fi
         sleep .1s
     done
 }
 
-kern; dots; clear; /sbin/openrc sysinit
-exit 0
+kern; dots; clear; exec $INIT
+exit $?

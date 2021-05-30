@@ -1,4 +1,5 @@
 # Use rust-bin instead
 dev-lang/rust
-# Use Gentoo's polkit instead
-=sys-auth/polkit-0.118-r2::danrepo
+
+# Buggy ebuilds
+>=media-libs/libplacebo-2.72.2

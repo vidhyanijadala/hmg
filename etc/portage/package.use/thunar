@@ -1,4 +1,0 @@
-gnome-base/gvfs -cdda elogind -http policykit udev udisks mtp -samba -zeroconf
-xfce-base/thunar exif libnotify pcre udisks -introspection -trash-panel-plugin
-xfce-extra/thunar-volman libnotify
-xfce-extra/tumbler ffmpeg pdf -curl -gstreamer

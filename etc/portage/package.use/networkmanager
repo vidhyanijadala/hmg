@@ -1,1 +1,1 @@
-net-misc/networkmanager -bluetooth iwd -modemmanager -ppp -wext
+net-misc/networkmanager iwd -modemmanager -ppp -wext

@@ -1,0 +1,1 @@
+KERNEL=="zram0", ATTR{comp_algorithm}="lz4", ATTR{disksize}="10137M" RUN="/sbin/mkswap /dev/zram0"

@@ -38,8 +38,8 @@ PARTUUID=441468c8-c765-6a45-8ea8-6f8ce03a1d49    /boot    vfat    noatime    0 0
 tmpfs    /run        tmpfs    rw,nosuid,nodev,noexec,mode=755,size=512M    0 0
 tmpfs    /dev/shm    tmpfs    rw,nosuid,nodev,noexec,size=512M             0 0
 
-# Swap
-PARTUUID=e71a3dc0-b4a2-4fae-9771-f554feceba7f    none    swap    sw    0 0
+# Swap/zRAM
+UUID=92d3736c-c6d0-4fa1-b294-91316623f146    none    swap    sw    0 0
 
 # Gentoo Shared
 PARTUUID=85ccbba4-3f40-41bf-8549-09621747d041    /home/kyoko/.cache      btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=home_cache   0 0

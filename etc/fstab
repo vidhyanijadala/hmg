@@ -39,7 +39,7 @@ tmpfs    /run        tmpfs    rw,nosuid,nodev,noexec,mode=755,size=512M    0 0
 tmpfs    /dev/shm    tmpfs    rw,nosuid,nodev,noexec,size=512M             0 0
 
 # Swap/zRAM
-UUID=92d3736c-c6d0-4fa1-b294-91316623f146    none    swap    sw    0 0
+/dev/zram0    none    swap    sw    0 0
 
 # Gentoo Shared
 PARTUUID=85ccbba4-3f40-41bf-8549-09621747d041    /home/kyoko/.cache      btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=home_cache   0 0

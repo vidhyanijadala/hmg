@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/dash
 LC_ALL=C LANG=C; W="\033[1;37m" R="\033[1;31m" G="\033[1;32m" NC="\033[0m"
 
 INIT="/sbin/openrc sysinit"

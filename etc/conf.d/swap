@@ -12,5 +12,6 @@
 # this line.
 #rc_need="netmount"
 
-# Since swap using zram, it needs to start udev firstly.
+# Since swap using zram, it needs to start udev and localmount firstly.
 rc_need="udev"
+rc_need="localmount"

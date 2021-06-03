@@ -6,8 +6,4 @@ I'm not going to explain, but this you have to understand rather than putting th
 
 <p align="center"><img src="https://i.ibb.co/1T0rYL4/final.gif"/></p>
 
-> **Packages**  
-> ```cfg
-> _PKGS_
-> ```
 [`kernel_config`](https://github.com/owl4ce/kurisu-x86_64) [`desktop_dots`](https://github.com/owl4ce/dotfiles)

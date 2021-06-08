@@ -36,7 +36,7 @@ tmpfs    /dev/shm    tmpfs    rw,nosuid,nodev,noexec,size=512M             0 0
 # Swap/zRAM
 /dev/zram0    none    swap    sw    0 0
 
-# Gentoo Shared
+# Gentoo Shared on /dev/sdb4
 PARTUUID=85ccbba4-3f40-41bf-8549-09621747d041    /home/kyoko/.cache      btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=home_cache   0 0
 PARTUUID=85ccbba4-3f40-41bf-8549-09621747d041    /root/.cache            btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=root_cache   0 0
 PARTUUID=85ccbba4-3f40-41bf-8549-09621747d041    /tmp                    btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=tmp          0 0
@@ -46,8 +46,7 @@ PARTUUID=85ccbba4-3f40-41bf-8549-09621747d041    /var/log                btrfs  
 PARTUUID=85ccbba4-3f40-41bf-8549-09621747d041    /var/spool              btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=var_spool    0 0
 PARTUUID=85ccbba4-3f40-41bf-8549-09621747d041    /var/tmp                btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=var_tmp      0 0
 
-# HDD Data
-PARTUUID=748b5670-ed25-a64a-a1cd-6b3ddf32324c    /media/Mark-I           btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1                     0 0
+# HDD Data on /dev/sdb1 and /dev/sdb2
 PARTUUID=748b5670-ed25-a64a-a1cd-6b3ddf32324c    /home/kyoko/Documents   btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=Documents    0 0
 PARTUUID=748b5670-ed25-a64a-a1cd-6b3ddf32324c    /home/kyoko/Downloads   btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=Downloads    0 0
 PARTUUID=748b5670-ed25-a64a-a1cd-6b3ddf32324c    /home/kyoko/Music       btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=Music        0 0

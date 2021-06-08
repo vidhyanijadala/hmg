@@ -1,1 +1,2 @@
-xfce-base/thunar exif -trash-panel-plugin
+media-libs/libopenraw gtk
+xfce-base/thunar -trash-panel-plugin

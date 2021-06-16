@@ -2,7 +2,7 @@
 
 # Remove `-flto=4` if a package failed to compile, then adds it again.
 # Don't forget to add `-1` on emerge's arguments, if a package not recorded into @world.
-COMMON_FLAGS="-flto=4 -march=native -O2 -pipe -fomit-frame-pointer"
+COMMON_FLAGS="-flto=4 -march=native -Os -pipe -fomit-frame-pointer"
 
 CC="gcc"
 CXX="g++"

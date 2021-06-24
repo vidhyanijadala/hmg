@@ -1,1 +1,5 @@
 app-emulation/qemu usbredir spice virgl gtk
+# Below is related to virt-manager.
+app-emulation/virt-manager gtk
+net-misc/spice-gtk usbredir
+net-dns/dnsmasq script

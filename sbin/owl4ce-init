@@ -13,5 +13,4 @@ dots() {
     done
 }
 
-kern; dots; clear; exec $INIT
-exit $?
+kern; dots; clear; exec ${INIT}; exit $?

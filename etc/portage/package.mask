@@ -3,3 +3,6 @@ dev-lang/rust
 
 # Buggy ebuilds
 >=media-libs/libplacebo-2.72.2
+
+# Blocked spotify, since using legacy spicetify which themes are not widely created.
+>=media-sound/spotify-1.1.56

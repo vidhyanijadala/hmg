@@ -1,8 +1,8 @@
-# Use rust-bin instead
+# Use rust-bin instead.
 dev-lang/rust
 
-# Buggy ebuilds
+# Buggy ebuilds.
 >=media-libs/libplacebo-2.72.2
 
-# Blocked spotify, since using legacy spicetify which themes are not widely created.
+# Blocked spotify, since using legacy spicetify which is currently the themes are not widely created.
 >=media-sound/spotify-1.1.56

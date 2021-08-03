@@ -37,20 +37,20 @@ tmpfs    /dev/shm    tmpfs    rw,nosuid,nodev,noexec,size=512M             0 0
 /dev/zram0    none    swap    sw    0 0
 
 # Gentoo extended on /dev/sdb4 [HDD]
-PARTUUID=85ccbba4-3f40-41bf-8549-09621747d041    /home/kyoko/.cache      btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=home_cache   0 0
-PARTUUID=85ccbba4-3f40-41bf-8549-09621747d041    /root/.cache            btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=root_cache   0 0
-PARTUUID=85ccbba4-3f40-41bf-8549-09621747d041    /tmp                    btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=tmp          0 0
-PARTUUID=85ccbba4-3f40-41bf-8549-09621747d041    /usr/src                btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=usr_src      0 0
-PARTUUID=85ccbba4-3f40-41bf-8549-09621747d041    /var/cache/distfiles    btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=distfiles    0 0
-PARTUUID=85ccbba4-3f40-41bf-8549-09621747d041    /var/log                btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=var_log      0 0
-PARTUUID=85ccbba4-3f40-41bf-8549-09621747d041    /var/spool              btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=var_spool    0 0
-PARTUUID=85ccbba4-3f40-41bf-8549-09621747d041    /var/tmp                btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=var_tmp      0 0
+PARTUUID=85ccbba4-3f40-41bf-8549-09621747d041    /home/kyoko/.cache      btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,commit=1,subvol=home_cache   0 0
+PARTUUID=85ccbba4-3f40-41bf-8549-09621747d041    /root/.cache            btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,commit=1,subvol=root_cache   0 0
+PARTUUID=85ccbba4-3f40-41bf-8549-09621747d041    /tmp                    btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,commit=1,subvol=tmp          0 0
+PARTUUID=85ccbba4-3f40-41bf-8549-09621747d041    /usr/src                btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,commit=1,subvol=usr_src      0 0
+PARTUUID=85ccbba4-3f40-41bf-8549-09621747d041    /var/cache/distfiles    btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,commit=1,subvol=distfiles    0 0
+PARTUUID=85ccbba4-3f40-41bf-8549-09621747d041    /var/log                btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,commit=1,subvol=var_log      0 0
+PARTUUID=85ccbba4-3f40-41bf-8549-09621747d041    /var/spool              btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,commit=1,subvol=var_spool    0 0
+PARTUUID=85ccbba4-3f40-41bf-8549-09621747d041    /var/tmp                btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,commit=1,subvol=var_tmp      0 0
 
 # Data on /dev/sdb1 and /dev/sdb2 [HDD]
-PARTUUID=748b5670-ed25-a64a-a1cd-6b3ddf32324c    /media/Mark-I           btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1                     0 0
-PARTUUID=748b5670-ed25-a64a-a1cd-6b3ddf32324c    /home/kyoko/Documents   btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=Documents    0 0
-PARTUUID=748b5670-ed25-a64a-a1cd-6b3ddf32324c    /home/kyoko/Downloads   btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=Downloads    0 0
-PARTUUID=748b5670-ed25-a64a-a1cd-6b3ddf32324c    /home/kyoko/Music       btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=Music        0 0
-PARTUUID=748b5670-ed25-a64a-a1cd-6b3ddf32324c    /home/kyoko/Pictures    btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=Pictures     0 0
-PARTUUID=748b5670-ed25-a64a-a1cd-6b3ddf32324c    /home/kyoko/Videos      btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,subvol=Videos       0 0
-PARTUUID=c128a0ae-89d7-4a89-89f1-42c638398012    /media/Mark-II          btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1                     0 0
+PARTUUID=748b5670-ed25-a64a-a1cd-6b3ddf32324c    /media/Mark-I           btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,commit=1                     0 0
+PARTUUID=748b5670-ed25-a64a-a1cd-6b3ddf32324c    /home/kyoko/Documents   btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,commit=1,subvol=Documents    0 0
+PARTUUID=748b5670-ed25-a64a-a1cd-6b3ddf32324c    /home/kyoko/Downloads   btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,commit=1,subvol=Downloads    0 0
+PARTUUID=748b5670-ed25-a64a-a1cd-6b3ddf32324c    /home/kyoko/Music       btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,commit=1,subvol=Music        0 0
+PARTUUID=748b5670-ed25-a64a-a1cd-6b3ddf32324c    /home/kyoko/Pictures    btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,commit=1,subvol=Pictures     0 0
+PARTUUID=748b5670-ed25-a64a-a1cd-6b3ddf32324c    /home/kyoko/Videos      btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,commit=1,subvol=Videos       0 0
+PARTUUID=c128a0ae-89d7-4a89-89f1-42c638398012    /media/Mark-II          btrfs    noatime,clear_cache,autodefrag,compress-force=zstd:1,commit=1                     0 0
